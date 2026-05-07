@@ -161,14 +161,8 @@ This project was developed and tested on:
        
 ---
 
-## 📌 Conclusion
+## 🧠 Summary
 
-FlightAI demonstrates how:
+This project is the result of:
 
-    “Modern LLMs + smart scraping + lightweight UI = real-world AI products”
-
-It bridges:
-
-    AI reasoning 🤖
-    Real-time data ✈️
-    Voice interaction 🎤
+    multiple failed APIs + broken scrapers + debugging ASR/LLM pipelines → finally converging into a stable multimodal flight assistant.
