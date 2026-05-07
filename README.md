@@ -121,7 +121,7 @@ Internally becomes:
 
 ## 🧪 Tech Stack
 
-- 🧠 LLaMA 3.2 (Intent + reasoning)
+- 🧠 LLaMA 3.2 (3B Instruct) accessed via Hugging Face gated model + HF_TOKEN authentication (Intent + reasoning)
 - 🎤 Whisper (Speech recognition)
 - ✈️ fast-flights (Google Flights scraper backend)
 - 📊 Pandas (data processing)
