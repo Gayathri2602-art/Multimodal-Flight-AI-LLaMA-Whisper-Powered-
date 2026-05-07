@@ -172,6 +172,7 @@ flight_agent/
 │   ├── test_intent.py
 │   └── test_filter.py
 ├── airports.csv             # Airport data for IATA lookup
+├── demo_flightAI.mp4        # demo how project works
 ├── requirements.txt
 ├── .gitignore
 └── main.py                  # Entry point
