@@ -29,7 +29,7 @@ It simulates a real conversational flight booking experience using LLMs + live f
 
 ## 🖼️ UI Preview
 
-![Gradio UI](./assets/ui_preview.png)
+![Gradio UI](webpage_image.png)
 
 ---
 
