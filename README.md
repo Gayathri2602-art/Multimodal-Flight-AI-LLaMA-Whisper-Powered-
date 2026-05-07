@@ -7,10 +7,15 @@ An intelligent end-to-end AI-powered flight booking assistant that allows users 
 Flight AI is a multimodal AI-powered flight booking assistant that lets users:
 
 🎤 Speak or type travel requests
+
 ✈️ Search real-time flight data
+
 🧠 Use natural language to filter flights
+
 💬 Chat with an AI travel agent
+
 🔊 Receive voice responses
+
 
 It simulates a real conversational flight booking experience using LLMs + live flight data.
 
@@ -25,11 +30,11 @@ It simulates a real conversational flight booking experience using LLMs + live f
 
 This project started with a simple idea:
 
-“Can I build an AI that books flights like a real travel agent?”
+    “Can I build an AI that books flights like a real travel agent?”
 
 I wanted users to speak naturally:
 
-“Goa to Bangalore tomorrow one way”
+    “Goa to Bangalore tomorrow one way”
 
 and get:
 
@@ -42,7 +47,7 @@ booking flow
 
 There was no usable flight API:
 
-    * Google Flights API → discontinued
+      Google Flights API → discontinued
       RapidAPI → limited & expensive
       Amadeus API → restricted access
       Playwright scraping → slow & unstable
