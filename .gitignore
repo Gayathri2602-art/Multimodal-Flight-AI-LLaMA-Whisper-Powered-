@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Cached flights data (regenerated at runtime)
+flight_cache/
+*.csv
+!airports.csv     # keep airports.csv in the repo
+
+# Model weights (too large for git)
+*.bin
+*.pt
+*.safetensors
+*.gguf
+
+# Audio temp files
+*.mp3
+*.wav
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

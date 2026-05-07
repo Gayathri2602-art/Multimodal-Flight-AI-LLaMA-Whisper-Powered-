@@ -1,0 +1,39 @@
+# ─────────────────────────────────────────────────
+# AI Flight Booking Agent — Python dependencies
+# ─────────────────────────────────────────────────
+
+# Google Flights scraper (dev branch)
+fast-flights @ git+https://github.com/AWeirdDev/flights.git@dev
+
+# HTML parsing (used internally by fast-flights)
+selectolax
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HuggingFace ecosystem
+transformers==4.57.6
+accelerate>=0.27.0
+bitsandbytes>=0.43.0
+huggingface_hub>=0.20.0
+torch>=2.1.0          # install GPU wheel separately for CUDA
+
+# ASR + Audio
+openai-whisper         # model weights pulled via transformers pipeline
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# TTS
+gTTS>=2.5.0
+
+# Web UI
+gradio>=4.0.0
+
+# Retry / resilience
+tenacity>=8.2.0
+
+# ─────────────────────────────────────────────────
+# Dev / Testing
+# ─────────────────────────────────────────────────
+pytest>=7.0.0
