@@ -196,10 +196,11 @@ flight_agent/
 
 This project was developed and tested on:
 
-- 🧠 **Google Colab**
-- 🚀 **T4 GPU** (NVIDIA Tesla T4)
-- 🐍 **Python 3.10+**
-- 💾 **Google Drive** mounted storage for caching flight data
+-  **Visual Studio**
+-  **Google Colab**
+-  **T4 GPU** (NVIDIA Tesla T4)
+-  **Python 3.10+**
+-  **Google Drive** mounted storage for caching flight data
 
 ---
 
