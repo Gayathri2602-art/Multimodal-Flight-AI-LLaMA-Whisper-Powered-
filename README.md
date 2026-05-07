@@ -2,6 +2,8 @@
 
 An intelligent end-to-end AI-powered flight booking assistant that allows users to search, filter, and select flights using voice or text input. The system integrates LLMs, speech recognition (Whisper), web scraping, and a Gradio UI to simulate a real-world travel booking experience.
 
+---
+
 ## 🚀 Overview
 
 Flight AI is a multimodal AI-powered flight booking assistant that lets users:
@@ -19,9 +21,12 @@ Flight AI is a multimodal AI-powered flight booking assistant that lets users:
 
 It simulates a real conversational flight booking experience using LLMs + live flight data.
 
+---
+
 ## 🎬 Demo
 
 ▶ Demo Video: demo_flightAI.mp4
+---
 
 ## 🖼️ UI Preview
 ![Gradio UI](webpage_image.png)
@@ -116,6 +121,14 @@ Internally becomes:
 - 🔊 gTTS (speech output)
 - 🎛 Gradio (UI)
 
+## ⚙️ Compute Environment
+
+This project was developed and tested on:
+
+    🧠 Google Colab
+    🚀 T4 GPU (NVIDIA Tesla T4)
+    🐍 Python 3.10+
+    💾 Google Drive mounted storage for caching flight data
 ---
 
 ## ⚠️ Limitations
