@@ -1,8 +1,8 @@
-✈️ Flight AI — Multimodal AI Flight Booking Agent (Whisper + LLaMA + Google Flights Scraper)
+##✈️ Flight AI — Multimodal AI Flight Booking Agent (Whisper + LLaMA + Google Flights Scraper)
 
 An intelligent end-to-end AI-powered flight booking assistant that allows users to search, filter, and select flights using voice or text input. The system integrates LLMs, speech recognition (Whisper), web scraping, and a Gradio UI to simulate a real-world travel booking experience.
 
-🚀 Overview
+##🚀 Overview
 
 Flight AI is a multimodal AI-powered flight booking assistant that lets users:
 
@@ -14,14 +14,14 @@ Flight AI is a multimodal AI-powered flight booking assistant that lets users:
 
 It simulates a real conversational flight booking experience using LLMs + live flight data.
 
-🎬 Demo
+##🎬 Demo
 
 ▶ Demo Video: demo_flightAI.mp4
 
-🖼️ UI Preview
+##🖼️ UI Preview
 ![Gradio UI](webpage_image.png)
 
-📖 Story Behind This Project
+##📖 Story Behind This Project
 
 This project started with a simple idea:
 
@@ -52,7 +52,7 @@ So the core challenge was:
 
 No reliable way to get real-time flight data.
 
-💡 The Breakthrough
+##💡 The Breakthrough
 
 Instead of scraping UI, I discovered:
 
@@ -70,7 +70,7 @@ This became the backbone of the system.
 
 I modified and extended the scraper for my AI system:
 
-✅ My Improvements
+##✅ My Improvements
         
       Added city → IATA mapping system
       Integrated Google Drive caching for Colab
@@ -99,7 +99,7 @@ Internally becomes:
 
 ---
 ## 📁 Project Structure
-![Project Structure](voice_flight_booking_pipeline.png)
+![Project Structure](voice_flight_booking_pipeline.jpg)
 
 
 ## 🧪 Tech Stack
