@@ -26,10 +26,13 @@ It simulates a real conversational flight booking experience using LLMs + live f
 ## 🎬 Demo
 
 ▶ Demo Video: demo_flightAI.mp4
+
 ---
 
 ## 🖼️ UI Preview
 ![Gradio UI](webpage_image.png)
+
+---
 
 ## 📖 Story Behind This Project
 
@@ -80,6 +83,8 @@ This became the backbone of the system.
 
 I modified and extended the scraper for my AI system:
 
+---
+
 ## ✅ My Improvements
         
       Added city → IATA mapping system
@@ -108,9 +113,11 @@ Internally becomes:
      Return clean dataset to LLM
 
 ---
+
 ## 📁 Project Structure
 ![Project Structure](voice_flight_booking_pipeline.jpg)
 
+---
 
 ## 🧪 Tech Stack
 
@@ -120,6 +127,8 @@ Internally becomes:
 - 📊 Pandas (data processing)
 - 🔊 gTTS (speech output)
 - 🎛 Gradio (UI)
+
+---
 
 ## ⚙️ Compute Environment
 
@@ -137,6 +146,7 @@ This project was developed and tested on:
     Scraping depends on third-party library stability
     No real payment/booking API integrated yet
 
+---
 
 ## 🔮 Future Improvements
     
@@ -148,7 +158,8 @@ This project was developed and tested on:
        React frontend
        Mobile app
        Cloud deployment (HuggingFace / AWS)
-
+       
+---
 
 ## 📌 Conclusion
 
