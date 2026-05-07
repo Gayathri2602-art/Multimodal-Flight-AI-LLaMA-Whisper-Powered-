@@ -115,6 +115,41 @@ Internally becomes:
 ---
 
 ## 📁 Project Structure
+## 📁 Project Structure
+
+```
+flight_agent/
+├── config/
+│   └── settings.py          # All constants, paths, model names
+├── scraper/
+│   ├── __init__.py
+│   ├── iata.py              # City → IATA code lookup
+│   ├── date_parser.py       # Natural language date parsing
+│   └── flights.py           # Core Google Flights scraper (fast-flights)
+├── agent/
+│   ├── __init__.py
+│   ├── intent.py            # NLP intent extraction (route + date)
+│   ├── filter.py            # Flight preference filtering & sorting
+│   ├── session.py           # Conversation session state management
+│   ├── responder.py         # LLM response generation
+│   └── handler.py           # Main turn-by-turn conversation logic
+├── ui/
+│   ├── __init__.py
+│   └── gradio_app.py        # Gradio web UI (voice + text)
+├── utils/
+│   ├── __init__.py
+│   ├── audio.py             # Whisper ASR + gTTS TTS helpers
+│   └── models.py            # Model loading (LLaMA + Whisper)
+├── tests/
+│   ├── test_scraper.py
+│   ├── test_intent.py
+│   └── test_filter.py
+├── airports.csv             # Airport data for IATA lookup
+├── requirements.txt
+├── .gitignore
+└── main.py                  # Entry point
+```
+
 ![Project Structure](voice_flight_booking_pipeline.jpg)
 
 ---
